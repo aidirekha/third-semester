@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0
+
+}
+#headerWrap{
+  width:1200px;
+  height:200px;
+  margin:0 auto;
+}
+.logoWrap{
+width:200px;
+  height:200px;
+  background-color: red;
+  float:left;
+}
+.bannerWrap{
+width:1000px;
+height:200px;
+background-color: blue;
+float: right;
+}
