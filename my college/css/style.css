@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body,html{
+  font-family:roboto,sans-serif,arial ;  
+  background: white;
+}
+.width-100{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+.top-header{
+    background: blue;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+
+}
+.news-list{
+    background: white;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+.headquote{
+    font-size: 18px;
+    color: white;
+    width: 80%;
+}
+#header-menu{
+  position: relative ;
+  box-shadow:0px 2px 5px 0px orangered;
+}
+.logoWrap{
+    width: fit-content;
+    float: left;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+.main-menu{
+list-style: none;
+float: right;
+margin-top: 20px;
+}
+.main-menu a{
+font-weight: 500;
+color: #3a3a3a;
+font-size: 20px;
+text-decoration: none;
+}
+.main-menu li{
+ float: left;
+ padding: 12px 15px;                 
+}
+.slider-width{
+    width: 100%;
+    height: auto;
+}
+#introWrap{
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+}
+.introBox{
+width: 600px;
+height: 400px;
+float: left;
+padding: 60px;
+text-align: justify;
+font-size: 20px;
+}
+.introBox h2{
+    text-transform: capitalize;
+}
+.introBox img{
+width: 30%;
+height: auto;
+float: left;
+margin-right: 10px;
+}
